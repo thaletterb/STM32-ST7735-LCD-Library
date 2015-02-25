@@ -17,6 +17,8 @@ http://elegantcircuits.com/2014/11/24/stm32f100-st7735-tft-lcd-library/
  * <TT> spi.c spi.h </TT> is the source for the SPI functions used to communicate with the LCD
  * <TT> ST7735.c ST7735.h </TT> is the source for the various ST7735 LCD functions
  * <TT> main.c </TT> Where main function resides
+* Compile the source code into <TT> ST7735.elf </TT> 
+* Upload the binary to the device using GDB server 
 
 ##Example Commands:##
 * Compile: <TT>$make</TT> 
