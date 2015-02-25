@@ -5,14 +5,16 @@ http://elegantcircuits.com/2014/11/24/stm32f100-st7735-tft-lcd-library/
 
 ##Requirements:##
 * STM32F100 Value Line Discovery Board
+* 1.8" TFT LCD Module (ST7735R)
 * GDB Server
+* Library contained in this repository
 
 
 ##Installation:##
-* Install the Arduino IDE and the Teensyduino Plugin..
-* Copy the "<TT>include</TT>" and "<TT>common</TT>" directories from this template to a local location..
+* Clone or download a local copy of this repository 
+* Inside of the <TT> ST7735LCD </TT> directory is the source code for the LCD library.
 
 ##Example Commands:##
-* Compile: <TT>$make all</TT>
+* Compile: <TT>$make</TT> 
 * Compile and load: <TT>$make load</TT>
 
